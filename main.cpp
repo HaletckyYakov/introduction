@@ -32,7 +32,9 @@ public:  //как их закрывать??? //написать pivat
 	{
 		this->y = y;
 	}
+
 	//создание Constructor
+
 	/*Point()
 	{
 		x = y = 0;
@@ -44,12 +46,16 @@ public:  //как их закрывать??? //написать pivat
 		this->y = y;
 		cout << "Constructor:\t" << this << endl;
 	}
+
 	//создание Destructor
+	
 	~Point()
 	{
 		cout << "Destructor:\t" << this << endl;
 	}
+
 	//секция метод   Methods:
+	
 	void print()const
 	{
 		cout << "X = " << x << "\tY = " << y << endl;
@@ -69,6 +75,7 @@ public:  //как их закрывать??? //написать pivat
 		}
 		return distance;
 	}
+
 };
 
 double Distance(Point A, Point B); //Функция которая возвращает расстояние между двумя точками (Объявление)
@@ -100,12 +107,13 @@ void main()
 	*/
 #endif // STRUCT_POINT
 
+
 	Point A(10, 15);
+		
 	//A.set_x(2);
 	//A.set_y(3);
 	//cout << A.get_x() << tab << A.get_y() << endl;
 	A.print();
-	
 	Point B(20, 30);
 	B.print();
 	Point C = 5;
